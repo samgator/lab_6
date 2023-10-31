@@ -1,7 +1,7 @@
 import encode as enc
 import decode as dec
 
-# Sam Morsics's main function
+# Sam Morsics's Main Function
 
 def main():
     while True:
@@ -15,7 +15,7 @@ def main():
             print("Your password has been encoded and stored!\n")
         elif menu_choice == '2':
             try:
-                print(f"The encoded password is {encoded_password}, and the original password is {password}\n")
+                print(f"The encoded password is {encoded_password}, and the original password is {dec.decode(encoded_password)}\n")
             except:
                 print("Looks like you haven't encoded a password yet!\n")
         elif menu_choice == '3':
