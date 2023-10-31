@@ -1,6 +1,7 @@
 import encode as enc
 import decode as dec
 
+# Sam Morsics's main function
 
 def main():
     while True:
