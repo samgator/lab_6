@@ -1,4 +1,5 @@
 def encode(password):
+    # Sam Morsics's encode function
     encoded_password = ""
 
     for num in password:
